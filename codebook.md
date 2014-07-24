@@ -1,9 +1,8 @@
-#X_test,y_test,subject_test are dataframes which read the files and with the column names from features
-#so do train series
-#clean1 is the merged data
-#clean3 is the data with variables including mean , standard deviation subject and label
-#ans is a clean data but without readable names 
-#tidy data is my final data
-#create a dataframe with same names with clean3
-#the only for loop computes the mean value of each variable for each label and each subject
+About data:
+In my tidy data , I have columns with labels and subjects as the instruction says.
 
+Each row means the average of each variable for each activity and each subject.
+
+the column names are readable and anyone can recognizes them.
+
+There are 6 different activitys and their column name is "label"
